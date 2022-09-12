@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script>
+         function coordinatesFunc(event) {
+            document.write("Coordinate(X) = " + event.clientX + "<br>Coordinate(Y) = " + event.clientY);
+         }
+      </script>
+   </head>
+
+   <body>
+      <div  onclick="coordinatesFunc(event)" style="width: 500px; height: 500px; background-color: aqua; margin: 50px;">Click me to get coordinates of cursor</p>
+   </body>
+</html>
